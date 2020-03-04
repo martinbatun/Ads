@@ -1,0 +1,27 @@
+body{
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.pdf{
+  width:102%;
+  height: 102%;
+  /* height:calc(102% + 55px); */
+  border: 0;
+  /* margin-top: -55px; */
+}
+.pdf::-webkit-scrollbar, body::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+.pdf::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+.pdf::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  background-color: rgba(172, 212, 217, 0.4);
+  border-radius: 10px;
+}
